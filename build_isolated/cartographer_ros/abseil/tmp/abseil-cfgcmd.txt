@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-C<TMP_DIR>/abseil-cache-$<CONFIG>.cmake;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

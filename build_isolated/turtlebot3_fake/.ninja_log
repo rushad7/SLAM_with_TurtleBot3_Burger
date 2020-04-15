@@ -1,0 +1,5 @@
+# ninja log v5
+0	2762	1582885130	CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o	80b24a55d2251218
+2765	2905	1582885130	/home/rushad/catkin_ws/devel_isolated/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node	afc944f6049f1924
+3	17	0	CMakeFiles/install.util	ac5be496b6a9fc57
+3	113	0	CMakeFiles/install.util	ac5be496b6a9fc57

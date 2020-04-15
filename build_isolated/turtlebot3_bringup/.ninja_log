@@ -1,0 +1,5 @@
+# ninja log v5
+0	2127	1582885116	CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o	d3105df1f1d3cb8b
+2129	2276	1582885116	/home/rushad/catkin_ws/devel_isolated/turtlebot3_bringup/lib/turtlebot3_bringup/turtlebot3_diagnostics	7206d50b84506946
+2	66	0	CMakeFiles/install.util	32d78fc20ea217c7
+1	59	0	CMakeFiles/install.util	32d78fc20ea217c7

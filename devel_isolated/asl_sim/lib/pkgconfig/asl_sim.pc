@@ -1,0 +1,8 @@
+prefix=/home/rushad/catkin_ws/devel_isolated/asl_sim
+
+Name: asl_sim
+Description: Description of asl_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

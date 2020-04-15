@@ -1,0 +1,41 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/rushad/catkin_ws/build_isolated/cartographer_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_f9c16"
+[1/2] Building C object CMakeFiles/cmTC_f9c16.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f9c16
+FAILED: cmTC_f9c16 
+: && /usr/bin/cc   -rdynamic CMakeFiles/cmTC_f9c16.dir/CheckSymbolExists.c.o  -o cmTC_f9c16   && :
+CMakeFiles/cmTC_f9c16.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+File /home/rushad/catkin_ws/build_isolated/cartographer_rviz/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rushad/catkin_ws/build_isolated/cartographer_rviz/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1b4b4"
+[1/2] Building C object CMakeFiles/cmTC_1b4b4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1b4b4
+FAILED: cmTC_1b4b4 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_1b4b4.dir/CheckFunctionExists.c.o  -o cmTC_1b4b4  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+

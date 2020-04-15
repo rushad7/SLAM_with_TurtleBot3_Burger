@@ -1,0 +1,17 @@
+/home/rushad/catkin_ws/install_isolated/_setup_util.py
+/home/rushad/catkin_ws/install_isolated/env.sh
+/home/rushad/catkin_ws/install_isolated/setup.bash
+/home/rushad/catkin_ws/install_isolated/local_setup.bash
+/home/rushad/catkin_ws/install_isolated/setup.sh
+/home/rushad/catkin_ws/install_isolated/local_setup.sh
+/home/rushad/catkin_ws/install_isolated/setup.zsh
+/home/rushad/catkin_ws/install_isolated/local_setup.zsh
+/home/rushad/catkin_ws/install_isolated/.rosinstall
+/home/rushad/catkin_ws/install_isolated/lib/pkgconfig/turtlebot3_fake.pc
+/home/rushad/catkin_ws/install_isolated/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
+/home/rushad/catkin_ws/install_isolated/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake
+/home/rushad/catkin_ws/install_isolated/share/turtlebot3_fake/package.xml
+/home/rushad/catkin_ws/install_isolated/lib/turtlebot3_fake/turtlebot3_fake_node
+/home/rushad/catkin_ws/install_isolated/include/turtlebot3_fake/turtlebot3_fake.h
+/home/rushad/catkin_ws/install_isolated/share/turtlebot3_fake/launch/turtlebot3_fake.launch
+/home/rushad/catkin_ws/install_isolated/share/turtlebot3_fake/rviz/turtlebot3_fake.rviz
