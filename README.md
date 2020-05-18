@@ -21,3 +21,5 @@ Tele operation can also be used to manually control the TurtleBot through the ke
 
 To run the algorithms live on a physical TurtleBot, the ROS_MASTER_URI and ROS_HOSTNAME need to be set 
 via the terminal by editing the ~/.bashrc script.
+
+The data_coll file contains the measured data of CPU performances, its plots and a video of its run.
