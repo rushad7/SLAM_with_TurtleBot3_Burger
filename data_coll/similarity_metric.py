@@ -1,3 +1,5 @@
+#python2 similarity_metric.py -d /home/rushad/Desktop/SLAM_with_TurtleBot3_Burger/data_coll/map_images
+
 from skimage.measure import compare_ssim as ssim
 import numpy as np
 import argparse

@@ -23,9 +23,5 @@ with open(r"/home/rushad/Desktop/cpu_mem_karto.log", "r") as data_file:
 	data_file.close()
 
 cpu_load = pd.read_csv(r"/home/rushad/Desktop/cpu_mem_karto.csv", header=None)
-
-def ret():
-	return cpu_load
-
 cpu_load.plot()
 plt.show()
